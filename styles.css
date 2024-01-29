@@ -1,0 +1,23 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
