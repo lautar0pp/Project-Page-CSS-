@@ -4,16 +4,41 @@ body {
     flex-direction: column;
 }
 
-
+.container {
+    background-color: #1F2937;
+    padding: 10px 40px;
+} 
 .header {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+h2 {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #f9faf8;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+h1 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
 ul {
     display: flex;
     list-style-type: none;
+    gap: 16px;
 }
 
 a {
